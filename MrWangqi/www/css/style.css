@@ -1,0 +1,161 @@
+/* Empty. Add your own CSS if you like */
+#side_head{
+	width:300px;
+	height:240px;
+	/*border-bottom: 2px solid #009689;*/
+	background: url(../img/sidebg.jpeg);
+	background-size:cover;
+	overflow: hidden;
+}
+
+#side_head dl{
+	width:300px;
+	height:100px;
+	line-height: 100px;
+	margin-top: 80px;
+	margin-left: 30px;
+	font-family: "微软雅黑";
+}
+#side_head dt{
+	float: left;
+	width:80px;
+	height:80px;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	background: #fff url(../img/touxiang.jpg);
+	background-size: contain;
+}
+#side_head dd{
+	float: left;
+	width:190px;
+	height:80px;
+	color: #fff;
+	font-size: 30px;
+	line-height: 80px;
+	margin-left: 30px;
+	letter-spacing: 4px;
+}
+
+ion-content{
+	width:100%;
+	height:100%;
+	background: url(../img/page5.jpg) no-repeat;
+	background-size:100% 100% ;
+}
+ion-content.mine{
+	padding: 20px 30px;
+}
+ion-content.mine h3{
+	width:200px;
+	height:40px;
+	font-size: 20px;
+	padding-left: 20px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+ion-content.mine .hobby{
+	background: rgba(95,158,160,0.3)
+}
+ion-content.mine .rated{
+	background: rgba(0,255,255,0.3)
+}
+ion-content.mine .hope{
+	background: rgba(255,69,0,0.3)
+}
+ion-content.mine p{
+	text-indent: 2em;
+	font-size: 14px;
+}
+#skills{
+	padding: 20px;
+}
+#skills li{
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#skills li h4{
+	font-weight: bolder;
+}
+#skills li:nth-child(1){
+	background: rgba(95,158,160,0.3)
+}
+
+#skills li:nth-child(2){
+	background: rgba(0,255,255,0.3)
+}
+#skills li:nth-child(3){
+	background: rgba(255,69,0,0.3)
+}
+
+
+#exp1,#exp2{
+	padding: 10px;
+}
+
+#exp1 h4,#exp2 h4{
+	font-size: 18px;
+}
+#exp1 p,#exp2 p{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+#flow{
+	width:200px;
+	height:200px;
+	background: url(../img/flower.png) no-repeat;
+	background-size: contain;
+	margin-top: 20px;
+	margin-left: 50px;
+	/*animation: turn 3s linear infinite;*/
+	animation-name: turn;
+	-moz-animation-name:turn ;
+	-webkit-animation-name:turn ;
+	-o-animation-name:turn ;
+	
+	animation-duration:3s;
+	-moz-animation-duration: 3s;
+	-webkit-animation-duration:3s;
+	-o-animation-duration: 3s;
+	
+	animation-timing-function:linear;
+	-moz-animation-timing-function:linear;
+	-webkit-animation-timing-function:linear;
+	-o-animation-timing-function:linear;
+	
+	animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	-o-animation-iteration-count:infinite;
+}
+@keyframes turn{
+	from{transform: rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform:rotate(0deg) ;
+	}
+	to{transform: rotate(360deg);
+		-moz-transform:rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform:rotate(360deg) ;
+	}
+}
+ion-content.myworks{
+	padding: 5px 20px;
+}
+
+.myworks h3{
+	font-size: 20px;
+	line-height: 30px;
+}
+.myworks h4{
+	font-size: 16px;
+	font-weight: bold;
+}
+.myworks p{
+	font-family: "微软雅黑" arial;
+}
+
+ 
